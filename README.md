@@ -6,13 +6,13 @@ This project demonstrates how multiple devices inside a private network can comm
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 In a private network, devices usually use private IP addresses such as:
 
-- 10.0.0.10
-- 10.0.0.11
-- 10.0.0.12
+* 10.0.0.10
+* 10.0.0.11
+* 10.0.0.12
 
 These addresses are not directly routable over the public Internet.
 
@@ -22,24 +22,24 @@ This simulator demonstrates that process in software.
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 The main objectives of this project are:
 
-- Simulate a private computer network.
-- Simulate a NAT Gateway.
-- Perform private-to-public IP translation.
-- Demonstrate Port Address Translation (PAT).
-- Maintain a NAT connection table.
-- Perform reverse NAT for incoming responses.
-- Track active connections.
-- Block unsolicited inbound traffic.
-- Expire inactive NAT connections.
-- Maintain packet and connection statistics.
+* Simulate a private computer network.
+* Simulate a NAT Gateway.
+* Perform private-to-public IP translation.
+* Demonstrate Port Address Translation (PAT).
+* Maintain a NAT connection table.
+* Perform reverse NAT for incoming responses.
+* Track active connections.
+* Block unsolicited inbound traffic.
+* Expire inactive NAT connections.
+* Maintain packet and connection statistics.
 
 ---
 
-## 🏗️ Network Architecture
+## Network Architecture
 
 ```text
                     INTERNET
@@ -64,3 +64,4 @@ The main objectives of this project are:
           │             │             │
         PC-A           PC-B          PC-C
      10.0.0.10      10.0.0.11      10.0.0.12
+```
